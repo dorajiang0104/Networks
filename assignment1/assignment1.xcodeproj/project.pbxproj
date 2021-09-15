@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		110E3FFF25781A96009CDCCB /* server_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = server_1.c; sourceTree = "<group>"; };
+		110E400025781A96009CDCCB /* packet_1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = packet_1.h; sourceTree = "<group>"; };
+		110E400125781A96009CDCCB /* assign_1_LENGTH_MISMATCH.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assign_1_LENGTH_MISMATCH.png; sourceTree = "<group>"; };
+		110E400225781A96009CDCCB /* .DS_Store */ = {isa = PBXFileReference; lastKnownFileType = file; path = .DS_Store; sourceTree = "<group>"; };
+		110E400325781A96009CDCCB /* client_1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = client_1; sourceTree = "<group>"; };
+		110E400425781A96009CDCCB /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		110E400525781A96009CDCCB /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		110E400625781A96009CDCCB /* assign_1_MISSING_END_ID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assign_1_MISSING_END_ID.png; sourceTree = "<group>"; };
+		110E400725781A96009CDCCB /* server_1 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = server_1; sourceTree = "<group>"; };
+		110E400825781A96009CDCCB /* client_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = client_1.c; sourceTree = "<group>"; };
+		110E400925781A96009CDCCB /* assign_1_DUPLICATE_PACKET.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assign_1_DUPLICATE_PACKET.png; sourceTree = "<group>"; };
+		110E400A25781A96009CDCCB /* assign_1_OUT_OF_SEQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assign_1_OUT_OF_SEQ.png; sourceTree = "<group>"; };
+		110E400B25781A96009CDCCB /* assign_1_ack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assign_1_ack.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		110E3FF925781A96009CDCCB = {
+			isa = PBXGroup;
+			children = (
+				110E3FFF25781A96009CDCCB /* server_1.c */,
+				110E400025781A96009CDCCB /* packet_1.h */,
+				110E400125781A96009CDCCB /* assign_1_LENGTH_MISMATCH.png */,
+				110E400225781A96009CDCCB /* .DS_Store */,
+				110E400325781A96009CDCCB /* client_1 */,
+				110E400425781A96009CDCCB /* Makefile */,
+				110E400525781A96009CDCCB /* README */,
+				110E400625781A96009CDCCB /* assign_1_MISSING_END_ID.png */,
+				110E400725781A96009CDCCB /* server_1 */,
+				110E400825781A96009CDCCB /* client_1.c */,
+				110E400925781A96009CDCCB /* assign_1_DUPLICATE_PACKET.png */,
+				110E400A25781A96009CDCCB /* assign_1_OUT_OF_SEQ.png */,
+				110E400B25781A96009CDCCB /* assign_1_ack.png */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		110E3FFE25781A96009CDCCB /* assignment1 */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 110E400C25781A96009CDCCB /* Build configuration list for PBXLegacyTarget "assignment1" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/fafa/Desktop/2020Fall/Computer Network/Network/assignment1";
+			dependencies = (
+			);
+			name = assignment1;
+			passBuildSettingsInEnvironment = 1;
+			productName = assignment1;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		110E3FFA25781A96009CDCCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 110E3FFD25781A96009CDCCB /* Build configuration list for PBXProject "assignment1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 110E3FF925781A96009CDCCB;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110E3FFE25781A96009CDCCB /* assignment1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		110E3FFB25781A96009CDCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		110E3FFC25781A96009CDCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		110E400D25781A96009CDCCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = assignment1;
+			};
+			name = Debug;
+		};
+		110E400E25781A96009CDCCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = assignment1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110E3FFD25781A96009CDCCB /* Build configuration list for PBXProject "assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E3FFB25781A96009CDCCB /* Debug */,
+				110E3FFC25781A96009CDCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110E400C25781A96009CDCCB /* Build configuration list for PBXLegacyTarget "assignment1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110E400D25781A96009CDCCB /* Debug */,
+				110E400E25781A96009CDCCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110E3FFA25781A96009CDCCB /* Project object */;
+}
