@@ -1,0 +1,30 @@
+COEN 233 Assignement
+1.How to compile:
+Under the homework folder, type:
+
+  $ make
+
+to compile the source code.
+
+2.How to run the program
+There will be 2 programs generated after running the makefile: client_1 and server_1.
+Under the homework folder, run the program by following command:
+
+  $ ./server_1 <PORT_NUMBER>
+
+to start the server, and then run:
+
+  $ ./client_1 <PORT_NUMBER>
+
+to start the client.
+
+the client will ask the user provide some input to send the requests.
+1. user's client id: please input a int from 0 - 255
+2. If user want to modify the packets.
+  If no, then client will sent 5 correct packages and they will get acknowledge responses from server.
+  If yes, client ask user which package and which fields user want to modify.
+
+  a. To reproduce the out of sequence error, we can edit the second package sequence number from 2 to 3 or any larger number.
+  b. To reproduce the length field not match error, simply edit any package's length field to any other value.
+  c. To reproduce end of package missing error, choose editing any packets's the end_identifier feild, (note: the client won't ask user for any value for end_id, but edit the end_id directly to 0XFFF0 mentioned in document.)
+  d. To reproduce the duplicated sequence error, similar with (option a), edit third package from 3 to 2 or any equivalent change.

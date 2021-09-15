@@ -1,0 +1,35 @@
+COEN 233 Assignement
+1.How to compile:
+Under the homework folder, type:
+
+  $ make
+
+to compile the source code.
+
+2.How to run the program
+There will be 2 programs generated after running the makefile: server_2 and client_2
+
+Under the homework folder, run the program by following command:
+
+  $ ./server_2 <PORT_NUMBER>
+
+to start the server, and then run:
+
+  $ ./client_2 <PORT_NUMBER>
+
+to start the client.
+
+the client will ask the user provide some input to send the requests.
+1. user's client id: please input a int from 0 - 255
+2. The client will keep ask user to input a phone number/technology (up to 5), and use them to generate requests.
+  a. To get the differents result from server, using the value in Verification_Database.txt to get the specific response package type. To edit the database file, every data record will be stored in following format:
+
+    <phone number: 10 digit string> <technology: 02/03/04/05> <paid: 0/1>
+
+  If we insert or delete any data record from the file. please edit the DBSIZE micro defined in server_2.c line 12.
+
+  default value in Verification_Database.txt
+
+    4085446805 04 1
+    4086668821 03 0
+    4086808821 02 1 
